@@ -1,0 +1,77 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+header{
+    background-color: #0c1844;
+}
+
+header span{
+    color: #fff5e1;
+}
+
+.nav-item a{
+    color: #fff5e1;
+}
+
+/*link visitado*/
+.nav-item a:visited{
+    color: #fff5e1;
+}
+/*para cambiar el color del cuadro de Yo*/
+.nav-item a:hover{
+    color: #ff6969;
+}
+
+#nav-buttom{
+    background-color: #ff6969;
+}
+
+.icon-habilidades{
+    color: #ff6969;
+    font-size: 2em;
+}
+
+
+    .img-proyecto1{
+        background-image: url(assets/Captura\ de\ pantalla\ \(3\).png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+.img-proyecto1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    pointer-events: none; 
+}
+.img-proyecto1 .d-flex.flex-column {
+    position: relative;
+    z-index: 2; 
+}
+
+footer{
+    background-color: #c80036;
+    
+}
+footer .icon-footer i{
+    color: #fff5e1;
+
+}
+footer p{
+    color: #fff5e1;
+}
+
+footer p a{
+    color: #fff5e1;
+}
+
+#app{
+    color: #c80036;
+}
